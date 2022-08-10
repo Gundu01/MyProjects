@@ -1,0 +1,126 @@
+<html>
+<link rel="stylesheet" href="documentation.css">
+<head>
+<title>DocumentationPage</title>
+</head>
+<body>
+<main id="main-doc">
+
+</body>
+  <nav id="navbar">
+  <header>
+  </header>
+<ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+	 <a class="nav-link" href="#Elements"
+        >Elements</a>
+    </li>
+	 <li>
+	 <a class="nav-link" 
+	 href="#About"
+        >About</a
+      >
+    </li>
+	<li>
+	 <a class="nav-link" 
+	 href="#Tags"
+        >Tags</a
+      >
+    </li>
+	
+	<li>
+	 <a class="nav-link" 
+	 href="#CSS"
+        >CSS</a
+      >
+    </li>
+	</nav>
+	
+	<section class="introduction" id="introduction">
+		
+		<article class="paragraph">
+		<h1>HTML Documentation</h1>
+					<p>Introduction
+		Html or Hyper Text Markup Language is a standard language used by web browsers to interprete images, texts etc into visual or audible web pages. Or in simple terms HTML is a markup language used to build world wide web. a hypertext is a text displayed on a computer, and together with other other texts, a user can access it by a mouse click. Hypertext can contain, tables, forms, lists, images.
+		This format can be vital in sharing information on the web. Html uses tags to characterise text element within a document. This sends instructions to the web browsers on how a document should appear. a pysicist by name Tim Bernes-Lee(known as father of the web) was the one who developed HTML.
+		He wrote the first browser and server software in 1990. By the year 1996, the World Wide Web Consortium(w3c) became the authority to maintain HTML specifications. It became an international standard(ISO) in year 2000. The latest version of HTML is HTML 5. It's faster in web developement. 
+		HTML can be used to acces web resources, publish documents online with text, images, lists, tables, etc. It can also be used to create forms to collect user inputs like name, DOB, email, comments etc. Also, it can be used to store users web browser and be able to access it later. 
+		It can also be used to web resources such as images and videos. Html has opening tags <> and closing tag <> the closing tag has a slash in between the less and equals to sign.
+		 </p>
+		 <header><h2>Elements</h2></header>
+		 <p>HTML element is a component of a html document. It can also be said to be a collection of start tag<>, attributes, and an end tag with content inbetween.
+		 Start and open tag is used to mark opening and closing of an element. For example, "title" element represents the title of a document, while "P" and "br" elements
+		 represent paragraph and line break respectily.
+		 Basic Elements in Html include: <ul>
+		 <li>A text header, denoted using the <code>&lt;h1&gt;</code>,<h1> <code>&lt;h2&gt;</code>,<h2> <code>&lt;h3&gt;</code>,<code>&lt;h4&gt;</code>,<h3> <code>&lt;h4&gt;</code>, <h4> <code>&lt;h5&gt;</code>,<h5>tags</li></ul>.
+		 
+		 
+		 
+		<li>A paragraph, denoted using the <code>&lt;p&gt;</code> tag.<p> tag.</li>
+		<li>A horizontal ruler, denoted using the <code>&lt;hr&gt;</code> tag.</li>
+		<li>A link, denoted using the <a> <code>&lt;a&gt;</code> (anchor) tag.</li>
+		<li>A list, denoted using <code>&lt;ul&gt;</code> (unordered list), <code>&lt;ol&gt;</code> (ordered list) and <code>&lt;li&gt;</code> (list element) tags.</li>
+		<li>An image, denoted using the <code>&lt;img&gt;</code> tag<li>
+		<li>A divider, denoted using the <code>&lt;div&gt;</code> tag</li><br>
+		</ul>
+		</article>
+	</section>
+
+	<section class="introduction" id="About">
+	<header>About</header>
+	<article>
+	<p> Tim Berners-Lee in 1993 wrote the first version HTML. There have been many different versions of HTML since then. 
+	The most widely version of Html used during the 2000's was HTML 4.01. This version became an official standard in 1999.
+	Most pages on the Web today were built using either HTML 4.01. HTML 5 which was created in 2011 
+	is already widely supported by browsers and other web-enabled devices, and is the way of the future. 
+	This particular version of html, HTML5, has added support for many new features that will make it possible to do more with HTML, 
+	without relying on non-standard proprietary technologies.</p>
+
+
+
+	</ul>
+	</article>
+</section>
+
+
+<section class="introduction" id="Elements">
+<header>Elements</header>
+<article>
+<p>HTML
+HTML and CSS are 2 core technologies used in building web pages. HTML mainly provides the structure of web page while
+This includes. colors, layouts and fonts.<br>
+Html is a code used in structuring web pages. 
+</p>
+<p>The function <code>selectAll()</code> highlights all the text in the
+input field so the user can, for example, copy or delete the text.</p>
+<p>The function <code>selectAll()</code> highlights all the text in the
+input field so the user can, for example, copy or delete the text.</p>
+
+
+</article>
+</section>
+
+<section class="introduction" id="Tags">
+<header>Tags</header>
+<article>
+<p>Tags are part of html. Tags in HTML are used to mark the begining and end of an HTML element in an HTML document. 
+Html tags helps in converting html documents into web pages. For example, the <code>&lt;p&gt;</code><p> tag is used to organize text content into paragraph elements
+ and the <code>&lt;img&gt;</code><img> tag is used to embed image elements</p>
+
+</article>
+</section>
+
+<section class="introduction" id="CSS">
+<header>CSS</header>
+<article>
+<p>CSS Is also refered to as Casscading Style Sheet. It is a style sheet used to describe document presentation is HTML
+The design of CSS is aimed at seperating presentation and content. This includes; layout, colors, and fonts. 
+This gives room for easy accessibility and flexibility.  CSS is used to style the layout. 
+CSS is used to style html documents. It discribes how HTML elements should be displaced.</p>
+
+
+</article>
+</section>
+
+<html>

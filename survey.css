@@ -1,0 +1,88 @@
+h1{font-weight:400;
+	line-height:1.2;
+text-align: center;
+}
+h1, p{
+	margin-top: 0;
+	margin-bottom:0.5rem;
+}
+h1{
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end:  0px;
+}
+
+p{text-align: center;
+}
+
+h1{text-align: center;
+}
+Midle Name{color: green;
+	
+}
+body{ 
+	font-family: 'poppins, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	background-color: #1b1b32;
+	color:white;
+	padding-bottom:0;
+	margin:0;
+	display: flex;
+	flex-direction: column;
+	min-height:100vh;
+	touch-action: manipulation;
+	min-width: 320px;
+}
+</style>
+}
+	}
+	
+.fullpage{
+	padding-bottom:10;
+	margin: 5;
+	display: flex;
+	webkit-box-orient: vertical;
+    webkit-box-direction: normal;
+	flex-direction: column;
+}	
+ body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+html{
+	font-family: var(--cp-font-family);
+	line-height: 1.5;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+html, body{
+	overflow
+}
+div{
+	text-align: center-left;
+}
+.fullpage{
+	padding-bottom: 0;
+	margin:0;
+	display: flex;
+	flex-direction: column;
+}
+*,*:: before, *::after{
+	box-sizing: border-box;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}

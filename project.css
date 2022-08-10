@@ -1,0 +1,32 @@
+header{
+	color: black;
+	margin:10px;
+	text-align: center;
+	font-size: 1,8em;
+display: block;
+}
+
+#navbar a{
+	display: block;
+	padding: 10px 30px;
+	color:#4d4e53;
+	text-decoration: none;
+	cursor: pointer;	
+}
+#nav li{
+	border-top: 1px solid;
+	list-style: none;
+	position: relative;
+	width: 100px;
+}
+li{
+	display: list-item;
+	text-align:-webkit-match-parent;
+}
+html, body{
+	min-width:290px;
+	color:#4d4e53;
+	background: #ffffff;
+	font-family: 'open Sans', Arial, Sans-serif;
+	line-height: 1.5;
+}

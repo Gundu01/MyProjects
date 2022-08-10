@@ -1,0 +1,180 @@
+#navbar{
+background-color: grey;
+    width: 50%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 30px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+nav ul {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	background-color: grey;
+	padding: 20px;
+	list-style:none;
+}
+
+.logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    text-align: center;
+    margin-left: 20px;
+}
+.nav1 a {
+  text-decoration: none;
+  color: red;
+  display:block;
+}
+
+.nav-link {
+  float:left;
+  padding-left: 40px;
+  padding-top: 25px;
+ 
+}
+
+ul li{
+  item-align:right;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 120px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  color:blue;
+  background-color:white;
+}
+
+form {
+  text-align: center;
+}
+
+#main [type="email"] {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  background-color:orange;
+}
+
+#main [type="submit"] {
+  background-color: grey;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+#products {
+  display:flex;
+  text-align:center;
+  justify-content: space-between;
+  align-items: stretch;
+  }
+  
+  #table1{
+  border: 2px solid;
+  flex:1;
+ max-width: 50%;
+}
+.listps {
+  margin-top: 10px
+}
+
+#table2{
+   border: 2px solid;
+   flex:1;
+  max-width: 50%;
+
+  }
+  #table3{
+   border: 2px solid;
+   flex:1;
+  max-width: 50%;
+
+  }
+  #title {
+  background-color: lightgrey;
+  margin-bottom: 20px;
+  line-height: 45px;
+}
+.select{
+  background-color: lightblue;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 20px 0 10px 0;
+}
+
+header{
+	position: fixed;
+}
+
+#main {
+    top: 40px;
+}
+footer {
+  margin-top: 50px;
+  background-color: grey;
+  padding-bottom: 10px;
+}
+.foot a {
+  text-decoration: none;
+  color: white;
+}
+#privacy .foot {
+  float: right;
+  padding-right: 60px;
+  padding-top: 5px;
+   list-style-type: none;
+}
+
+.copyright {
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+@media (max-width: 860px){
+  
+  .nav-link {
+  margin-top:10px;
+  font-size: 20px;
+  #main [type="email"] {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 1px;
+  
+}
+
+#main [type="submit"] {
+  background-color: lightblue;
+  text-transform: uppercase;
+  padding: 5px;
+}
+@media (max-width: 650px)
+.logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+}
+

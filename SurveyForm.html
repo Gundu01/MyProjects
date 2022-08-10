@@ -1,0 +1,70 @@
+<html>
+<div class="container">
+<header class="header">
+<link rel="stylesheet" media="screen" href="survey.css">
+<h1 id="title" class="text-center"> My Survey </h1>
+<p id="description" class="description text-center"><em>Thank You for Taking Out time to fill out this form</em></p>
+</header>
+<body class="fullpage logged-in sidebar-false">
+
+<form id="survey-form">
+<div class="form-group">
+<label id="name-label" for="name">Name<br></label>
+<input type="text" name="name" id="name" class="form-control" placeholder="Enter your name here" required /></div>
+
+<br>
+<form id="survey-form">
+<div class="form-group">
+<label id="email-label" for="email">Email<br></label>
+<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email here" required /></div><br>
+
+<form id="survey-form">
+<div class="form-group">
+<label id="number-label" for="number">Age</label>
+<input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"/>
+ </div>
+<br><br>
+
+
+<div class=form-group">
+<p>Which option best describes your Information Technology knowledge?</p>
+<select id="dropdown" name="role" class=form-control" required>
+<option value="novice">Novice</option>
+<option value="intermediate">Intermediate</option>
+<option value="professional">professional</option>
+<option value="expert">Expert</option>
+</select>
+<br>
+<br>
+
+<form>
+ <p>
+ 
+<label for="recommed">Would you recommed online courses to friends?</label><br>
+ <input type="radio" name="recommed" value="def" checked>Defintely<br>
+ <input type="radio" name="recommed" value="maybe">Maybe<br> 
+ <input type="radio" name="recommed" value="unsure">Not Sure
+ </p>
+ 
+ </form>
+<br> 
+
+What is your favorite favorite online course?<br><br>
+ <label>
+ <input name="course" value="Web-development" type="checkbox"class="input-checkbox"/>Web-development</label><br>
+ <input name="course" value="project" type="checkbox"class="input-checkbox"/>Project Management</label><br>
+ <input name="course" value="cyber" type="checkbox"class="input-checkbox"/>Cyber Security</label><br>
+ <input name="course" value="Support" type="checkbox"class="input-checkbox"/>IT support</label><br>
+ <input name="course" value="Networking" type="checkbox"class="input-checkbox"/>Computer Networking</label><br>  
+<br>
+
+<h3>Any comments or suggestions?</h3>
+<textarea id="comment" name="comment" rows="4" cols="50">
+Please enter your comment here.
+</textarea><br><br>
+<div>
+ <button type = "submit" id="submit" form = "survey-form" value = "Submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>

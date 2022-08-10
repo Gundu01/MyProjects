@@ -1,0 +1,106 @@
+html, body{
+	font-family: tahoma;
+	text-align:center;
+	color: green;
+	background-color: grey;
+	
+}
+
+header{
+	position: fixed;
+	
+}
+nav ul{
+	text-align: right;
+}
+nav ul li{
+	display:inline-block;
+	margin-right: 50px;
+	margin-top: 40px;
+}
+
+a{
+	text-decoration:none;
+	color:blue;
+}
+
+a:hover{
+	color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+	display:block;
+	padding-inline-start: 40px;
+	margin-block-start:1em;
+}
+
+#navbar {
+	height:15vh;
+	width:100%
+	top:0;
+	font-weight:700;
+	position: fixed;
+}
+
+#welcome-section{
+    background-color: white;
+    height: 100vh;
+    top:0;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.welcome-section h1{
+	padding-top: 70px;
+}
+
+.projects{
+	background-color:grey;
+	top:0;
+	padding-top: 50px;
+	font-weight:900;
+}
+
+
+.contact{
+	background-color:grey;
+	color:#fff;
+	padding-top:100px
+	padding-bottom:200px;
+	margin-top:100px;
+}
+
+.contact a:hover {
+  background-color: #ffff4d;
+  color: #333300;
+}
+
+.contact a {
+  color: #fff;
+  font-weight: 900;
+}
+
+.contact-details {
+  border: 2px solid #fff;
+  border-radius: 20%;
+  padding: 40px;
+  margin: 40px;
+  
+}
+
+footer{
+	margin:2rem;
+	color:blue;
+	padding:40px;
+}
+
+@media (max-width: 28.75em){
+	footer{
+		flex-direction: column;
+		text-align: center;
+	}
+}
